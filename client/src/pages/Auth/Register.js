@@ -17,7 +17,7 @@ const Register = () => {
         // This helps to prevent the page on getting refreshed when submit button is clicked.
         e.preventDefault();
         try {
-            const res = await axios.post(`${process.env.REACT_APP_API}/api/v1/auth/register`, {
+            const res = await axios.post(`https://a2z-online-store.onrender.com/api/v1/auth/register`, {
                 name,
                 email,
                 password,
