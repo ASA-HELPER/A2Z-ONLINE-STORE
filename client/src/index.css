@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* Navbar CSS */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+  background-color: #cbb26a !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.navbar-brand img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+  bottom: 0;
+  width: 100%;
+  /* position: fixed; */
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #cbb26a;
+  border-bottom: 1px solid #cbb26a;
+}
+
+/* Page Not Found */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Register Page */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+/* Products Page Card Link */
+.product-link {
+  text-decoration: none;
+  color: white !important;
+}
+
+/* Contact Us */
+.contactus {
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* styling category button */
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: #cbb26a;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* styling Dashboard page*/
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+/* Styling search form */
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+  border-radius: 5px;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+  border-radius: 5px;
+}
+.search-form button:hover {
+  background-color: #cbb26a;
+  color: black;
+  font-weight: 900;
+  border: 1px solid black;
+}
+
+.btn-color {
+  background-color: #cbb26a;
+}
+
+/* Price Colour setter */
+.card-price {
+  color: green;
+  font-weight: bold;
+}

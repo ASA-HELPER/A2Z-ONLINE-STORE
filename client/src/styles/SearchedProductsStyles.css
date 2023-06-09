@@ -1,0 +1,38 @@
+.searched {
+  align-items: center;
+  justify-content: center;
+}
+.searched .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+.card .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card .card-price {
+  color: green;
+  font-weight: bold;
+}
+.card button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.card img:hover {
+  transform: scale(0.9);
+}
+
+.card .card-img-top {
+  height: 300px !important;
+}
