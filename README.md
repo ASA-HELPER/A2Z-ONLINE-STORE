@@ -1,7 +1,7 @@
 # A2Z-ONLINE-STORE
 <img width="370" alt="IMG-15" src="https://github.com/ASA-HELPER/A2Z-ONLINE-STORE/assets/96967202/94233251-549d-460a-b163-473feb9ec03a">
 
-A2Z-ONLINE-STORE is a scalable and robust ecommerce application developed using the MERN stack, delivering a seamless shopping experience for customers. Integrated various payment gateways, including Braintree, to facilitate secure transactions with PayPal and
+A2Z-ONLINE-STORE is a scalable and robust e-commerce application developed using the MERN stack, delivering a seamless shopping experience for customers. Integrated various payment gateways, including Braintree, to facilitate secure transactions with PayPal and
 debit cards, ensuring a reliable and secure payment processing system.
 
 
